@@ -1,0 +1,61 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+/* .form-control-lg {
+    background: #251946;
+    color: white;
+} */
+
+
+.about-box{
+    color: white;
+    background: #4113A0;
+    max-width: 80%;
+    border-radius: 16px
+}
+
+.about-arrow{
+    position: relative;
+    right: 45%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .about-box {
+        color: white;
+        background: #4113A0;
+        max-width: 90%;
+        border-radius: 16px;
+    }
+
+    .h1-font{
+       
+font-size: 32px;
+
+line-height: 48px;
+text-align: left;
+
+    }
+
+    .h4-font{
+        font-family: Outfit;
+font-size: 16px;
+
+line-height: 24px;
+text-align: left;
+
+    }
+
+    .p-font{
+       
+font-size: 16px;
+
+line-height: 24px;
+text-align: left;
+
+    }
+  }

@@ -1,0 +1,89 @@
+.ash-mob{
+    font-family: Outfit;
+font-size: 22.02px;
+font-weight: 700;
+line-height: 27.75px;
+text-align: left;
+
+}
+
+.ash-e-mob{
+    font-family: Outfit;
+
+
+}
+
+.mt-auto{
+    margin: auto;
+}
+
+
+.Up-box {
+    padding: 8px 19px 8px 19px;
+    background: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    font-family: Outfit;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.6px;
+    text-align: center;
+}
+
+
+.c-score{
+    font-family: Outfit;
+font-size: 8px;
+font-weight: 300;
+line-height: 10.08px;
+text-align: center;
+
+}
+
+.Code-mobile{
+    color:#72FBC2;
+}
+
+.dollar-profit1{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+}
+
+.total-header1{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+
+}
+
+
+@media (max-width: 421px) {
+    .ash-mob {
+        font-family: Outfit;
+        font-size: 16.02px;
+
+    }
+    .ash-e-mob{
+        font-family: Outfit;
+font-size: 12.59px;
+font-weight: 300;
+line-height: 15.86px;
+text-align: left;
+
+    }
+
+    .Code-mobile {
+        font-family: Outfit;
+        font-size: 12.59px;
+        font-weight: 300;
+        line-height: 15.86px;
+        text-align: left;
+        
+    }
+  }

@@ -1,0 +1,19 @@
+.menu{
+    background: #4113A0;
+    color: white;
+}
+
+.log-in{
+    background: #4113A0;
+}
+
+@media only screen and (max-width: 350px) {
+    .pe-5 {
+        padding-right: 1rem!important;
+    }
+
+    .percent-score-box {
+       padding: 0px 
+     
+    }
+}

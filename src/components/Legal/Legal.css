@@ -1,0 +1,128 @@
+.btn-group-lg>.btn,
+.btn-lg {
+  border-radius: 30px;
+}
+
+
+
+.about-box {
+  color: white;
+  background: #4113A0;
+  max-width: 80%;
+  border-radius: 16px
+}
+
+.about-arrow {
+  position: relative;
+  right: 45%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .about-box {
+    color: white;
+    background: #4113A0;
+    max-width: 90%;
+    border-radius: 16px;
+  }
+
+  .h1-font {
+
+    font-size: 32px;
+
+    line-height: 48px;
+    text-align: left;
+
+  }
+
+  .h4-font {
+    font-family: Outfit;
+    font-size: 16px;
+
+    line-height: 24px;
+    text-align: left;
+
+  }
+
+  .p-font {
+
+    font-size: 16px;
+
+    line-height: 24px;
+    text-align: left;
+
+  }
+}
+
+
+
+
+/* norfiaction */
+.date-not {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+
+.notifaction-font {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.legal-box {
+  color: white;
+  background: #4113A0;
+  max-width: 80%;
+  border-radius: 16px
+}
+
+@media only screen and (max-width: 425px) {
+  .about-box {
+    color: white;
+    background: #4113A0;
+    max-width: 90%;
+    border-radius: 16px;
+  }
+
+  .h1-font {
+
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+
+
+
+  .h4-font {
+    font-weight: 100;
+    font-family: Outfit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  .p-font {
+
+    font-family: Outfit;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+
+
+  }
+
+
+  .h3-font{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+  }
+}

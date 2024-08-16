@@ -1,0 +1,114 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+.input-login {
+  background: #FFFFFF1A;
+}
+
+
+.input-login::placeholder {
+  color: white;
+}
+
+
+.mt-login{
+  margin-top: 3rem;
+}
+
+@media (max-width: 576px) {
+    .justify-content-center {
+     
+      text-align: center;
+    }
+  
+    .p-5 {
+       padding: 2rem!important; 
+  }
+  .text-align-login{
+    text-align: left;
+
+    
+  }
+
+
+  .form-check {
+    text-align: left;
+}
+
+.check-font{
+  font-size: 14px;
+}
+  }
+  
+
+  .forget-tag{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+.log-header{
+
+    font-weight: 700;
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 700;
+    /* line-height: 72px; */
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+/* responsive 15 aug */
+
+.about-arrow2 {
+  position: relative;
+  left: 1%;
+  text-align: left;
+}
+
+.p-login{
+  padding: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .p-login{
+    padding: 0.5rem;
+  }
+}
+
+/*  res 15 aug*/
+
+@media (max-width: 425px) {
+  .mt-login{
+    margin-top: 1rem;
+  }
+  
+}
+
+
+.login-btn{
+  font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+
+.sign-btn{
+  font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: center;
+
+
+}
+
+

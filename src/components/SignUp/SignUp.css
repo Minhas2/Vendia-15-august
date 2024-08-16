@@ -1,0 +1,95 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+
+.w-Sign {
+    width: 42%;
+}
+
+.MAX-CARD-Sign1{
+    max-width: 70%;
+}
+
+.br-425{
+    display: none;
+}
+
+.arrow-margin2{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .MAX-CARD-Sign1{
+        max-width: 89%;
+    }
+    
+  }
+
+
+  
+@media only screen and (max-width: 768px) {
+    .w-Sign{
+        width: 100%;
+    }
+    
+    .arrow-margin2 {
+        margin-top: 40px;
+    }
+    
+  }
+
+
+.sign-header{
+    font-family: Outfit;
+font-size: 48px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+
+.syne{
+    font-family: "Syne", sans-serif;
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    .sign-header{
+        font-family: Outfit;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        
+    
+    }
+
+    .responsive-br {
+        display: block; /* Show only on screens 425px or less */
+      }
+
+      .MAX-CARD-Sign1{
+        max-width: 95%;
+    }
+    
+    
+    
+  }
+
+
+
+.form-fonts{
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}

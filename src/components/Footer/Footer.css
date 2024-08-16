@@ -1,0 +1,26 @@
+.footer-links{
+    font-size: 25px;
+}
+
+.color-link{
+    color: white;
+}
+
+/* @media (max-width: 576px) {
+    .justify-content-center {
+
+      text-align: center;
+    }
+  } */
+
+.p-footer{
+  padding: 2rem !important;
+}
+
+  @media (max-width: 576px) {
+    .flex-footer{
+      justify-content: flex-start!important;
+    }
+  }
+  
+  

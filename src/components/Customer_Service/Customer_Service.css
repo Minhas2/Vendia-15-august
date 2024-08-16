@@ -1,0 +1,111 @@
+.btn-group-lg>.btn,
+.btn-lg {
+    border-radius: 30px;
+}
+
+
+.Customer_box {
+    color: white;
+    background: linear-gradient(163.34deg, #F62EFF -31.74%, #4113A0 100.98%);
+    width: 70%;
+    border-radius: 16px;
+}
+
+.greetingbox{
+    position: relative;
+    right: 5%;
+    background: #4113A0;
+    width: 38%;
+    border-radius: 0px 16px 16px 16px;
+    border: 1px solid #FFFFFF
+    
+   
+}
+
+.greetingbox2{
+    position: relative;
+    left: 5%;
+    background: #F62EFF;
+    width: 38%;
+    border-radius: 16px 0px 16px 16px;
+    border: 1px solid #FFFFFF
+    
+}
+
+.Contactbox{
+    width: 35%;
+
+   
+}
+
+.btn-custom {
+    background-color: #F62EFF;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+  }
+
+  .w-service{
+    width: 20%;
+  }
+
+
+.arrow-margin{
+    margin-top: 50px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1248px) {
+    .cus-btn-res-1248{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .cus-btn-res {
+        width: 100%;
+        text-align: left;
+    }
+    .Contactbox {
+       width: auto;
+      
+    }
+
+    .cus-btn-res2 {
+        width: 100%;
+        text-align: center;
+    }
+    .Customer_box {
+        color: white;
+        background: linear-gradient(163.34deg, #F62EFF -31.74%, #4113A0 100.98%);
+        width: 85%;
+        border-radius: 16px;
+    }
+
+    .about-arrow {
+        position: relative;
+        right: 40%;
+    }
+
+    .arrow-margin {
+        margin-top: 0px;
+    }
+
+    .mt-4{
+        margin-top: 0!important;
+    }
+
+    .h1-font {
+        font-size: 25px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+
+
+}
+
+

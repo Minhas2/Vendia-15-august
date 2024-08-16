@@ -1,0 +1,22 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+/* .form-control-lg {
+    background: #251946;
+    
+} */
+
+
+@media (max-width: 576px) {
+
+  .text-align-forget{
+    text-align: left;
+
+    
+  }
+
+
+  }
+  

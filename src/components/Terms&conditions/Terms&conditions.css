@@ -1,0 +1,40 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+@media (max-width: 425px) {
+    .h1-term{
+        font-family: Outfit;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: left;
+        
+    }
+
+    .h3-term{
+        font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+
+    }
+
+    .p-term{
+        font-family: Outfit;
+font-size: 10px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+
+    }
+
+
+
+
+  }
+  
+
+

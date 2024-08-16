@@ -1,0 +1,111 @@
+.modal-content {
+    background: transparent;
+    /* margin:"30px"; */
+    padding: 10px;
+    border: none;
+}
+
+.s-meb-header {
+    width: 72%;
+    font-family: Outfit;
+    font-size: 20.99px;
+    font-weight: 700;
+    line-height: 26.44px;
+    text-align: center;
+    background: #4113A0;
+    border-radius: 20px;
+}
+
+
+.s-meb-para {
+    font-family: Outfit;
+    font-size: 17.49px;
+    font-weight: 300;
+    line-height: 22.04px;
+    text-align: left;
+}
+
+.black{
+    color: black;
+}
+
+.relative{
+    position: relative;
+}
+
+
+/* startr modal css */
+
+.pos-ab-content {
+    position: absolute;
+    top: 33%;
+    right: 36%;
+}
+
+.pos-ab-content1{
+    position: absolute;
+    top: 33%;
+    right: 36%;
+
+}
+
+.neg-mar-image {
+    margin-top: -132px;
+}
+
+@media (max-width: 413px) {
+
+    .s-meb-header {
+        width: 85%;
+    }
+
+    .neg-mar-image {
+        margin-top: -111px;
+    }
+
+    .s-meb-para {
+        font-size: 14.49px;
+
+    }
+
+  }
+
+@media (max-width: 375px) {
+
+    .s-meb-header {
+        width: 85%;
+    }
+
+    .neg-mar-image {
+        margin-top: -100px;
+    }
+
+    .s-meb-para {
+        font-size: 12.49px;
+
+    }
+    .pos-ab-content1 {
+        top: 27%;
+        right: 29%;
+    }
+  }
+
+@media (max-width: 350px) {
+
+    .s-meb-header {
+        width: 85%;
+    }
+
+    .neg-mar-image {
+        margin-top: -100px;
+    }
+
+    .s-meb-para {
+        font-size: 10.49px;
+
+    }
+    .pos-ab-content1 {
+        top: 27%;
+        right: 29%;
+    }
+  }

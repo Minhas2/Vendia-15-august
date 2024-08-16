@@ -1,0 +1,479 @@
+.margin-auto {
+  margin: auto;
+}
+
+.dash-box {
+  background: #4113A0;
+  width: max-content;
+}
+
+.w-dash {
+  width: 80%;
+}
+
+.pink-dash {
+  background-color: #FC7EFF;
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  width: 80%;
+  margin: auto;
+}
+
+.w-pp{
+  width: "81%";
+}
+
+.nav-menu {
+  width: 80%;
+  margin: auto;
+}
+
+.margin-dash {
+  margin-bottom: 250px;
+}
+
+.user-color {
+  color: #F62EFF;
+}
+
+/* fonts side dash */
+
+.side-dash-para {
+  font-family: Manrope;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 12.8px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+
+}
+
+.relative {
+  position: relative;
+}
+
+/* styling for 3 min top boxes */
+
+.second-box {
+  background: #4113A0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.white-box {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  width: 90%;
+}
+
+/* fonts 2ndbox */
+.total-header {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+
+}
+
+.usdt {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+
+}
+
+.dollar-profit {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+
+/* thirdbox */
+
+.third-box {
+  background: #4113A0;
+  border-radius: 10px;
+  padding: 0 10px;
+  height: 100%;
+}
+
+
+.third-info-box {
+  background: linear-gradient(90deg, #FC7EFF 0%, #4113A0 100%);
+  border-radius: 30px;
+  padding: 9px 11px;
+  border: 3px solid #FFFFFF;
+}
+
+
+
+
+
+
+/* bot 2 boxes */
+
+.dash-bot-box {
+  background: #4113A0;
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+
+
+
+.underline {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+/* fonts for bot box 1 */
+.transaction-header {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+.trans-para {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+
+}
+
+.trans-Complete-box {
+  background: #E7F7EF;
+  padding: 4px 16px;
+  border-radius: 8px;
+  color: #0CAF60;
+
+
+}
+
+
+.trans-Cash-box {
+  background: #F4F0FF;
+  padding: 4px 26px;
+  border-radius: 8px;
+  color: #8C62FF;
+}
+
+.trans-Paid-box {
+  background: #FFEDEC;
+  padding: 4px 40px;
+  border-radius: 8px;
+  color: #FAC254;
+
+}
+
+.trans-Rejected-box {
+  background: #FFEDEC;
+  padding: 4px 25px;
+  border-radius: 8px;
+  color: #E03137;
+}
+
+
+.trans-botline {
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* member box */
+
+.member-header {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+
+
+/* last box profile  */
+
+.profile-box {
+  background-color: #4113A0;
+  border-radius: 0px 0px 120px 120px;
+}
+
+
+.profile-white-box {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  background-color: #4113A0;
+  color: white;
+  padding: 2px 28px;
+  border-radius: 30px;
+  border: 3px solid #FFFFFF;
+}
+
+
+.profile-score-box {
+  border-radius: 30px;
+  border: 2px solid #FFFFFF
+}
+
+.percent-score-box {
+  background: #03C876;
+  padding: 0px 43px;
+  width: 92%;
+  border-radius: 30px;
+}
+
+
+
+.getstarted-box {
+  background-color: #4113A0;
+  border-radius: 16px;
+}
+
+.start-white-box {
+  background-color: white;
+  border-radius: 16px;
+  color: #4113A0;
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  text-align: left;
+
+
+}
+
+
+.white-arrow-box {
+  background: #4113A0;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 4px;
+}
+
+
+
+
+/* last box fonts */
+
+.gold-header {
+  font-family: Outfit;
+  font-size: 20px;
+}
+
+.credit {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20.16px;
+
+
+}
+
+.acces-header {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17.64px;
+
+
+}
+
+.white-links {
+
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* dashnav */
+
+.dash_nav {
+  background: #4113A0;
+}
+
+
+.dash-nav-white {
+  background: white;
+  color: black;
+  border-radius: 10px;
+}
+
+
+.Dash-nav-para {
+
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: right;
+
+}
+
+
+
+/* res query */
+
+@media (max-width: 1331px) {
+  .dollar-profit {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1313px) {
+  .pe-5 {
+    padding-right: 1rem!important;
+}
+}
+
+
+@media (max-width: 1200px)  {
+  .third-box {
+    background: transparent;
+  }
+}
+
+
+
+@media (max-width: 1140px) {
+  .ash-font-res {
+    font-size: x-large;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .three-res-mt {
+    margin-top: 20px;
+  }
+
+  .margin-dash {
+    margin-bottom: 830px;
+  }
+}
+
+
+
+
+@media (max-width: 992px) {
+  .dollar-profit {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 868px) {
+  .dollar-profit {
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .ash-email-res {
+    font-size: 14px;
+  }
+
+  .ash-code-res {
+    font-size: 14px;
+  }
+
+ 
+}
+
+@media (max-width: 824px) {
+  .ash-email-res {
+    font-size: 11px;
+  }
+
+  .ash-code-res {
+    font-size: 11px;
+
+
+
+  }
+
+
+}
+
+@media (max-width: 850px) {
+  .bye {
+    display: none;
+  }
+
+  .get-res {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 806px) {
+  .ash-font-res {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1339px) {
+  .total-header {
+
+    font-size: 14px;
+   
+  }
+}
+
+@media (max-width: 1240px) {
+  .total-header {
+
+    font-size: 10px;
+   
+  }
+}
+
+@media (max-width: 375px) {
+  .percent-score-box {
+  
+    padding: 0px;
+
+  }
+}
+

@@ -1,0 +1,121 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+/* .form-control-lg {
+    background: #251946;
+    color: white;
+} */
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+.trans-box{
+    color: white;
+    max-width: 80%;
+}
+
+.trans1-box {
+    color: white;
+    background: #4113A0;
+    max-width: 76%;
+    border-radius: 16px;
+}
+   
+.creditnow1{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+    background: #4113A0;
+    padding: 21px 24px 21px 24px;
+    border-radius: 60px;
+    border: 1px solid #FFFFFF
+}
+
+.mt-auto{
+    margin: auto;
+}
+
+.max-trans1 {
+    max-width: 81%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width:768px) {
+    .max-trans1 {
+        max-width: 100%;
+        margin: auto;
+    }
+    
+}
+    
+    
+
+    
+
+.credithis1{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+background: #F62EFF;
+
+    padding: 21px 24px 21px 24px;
+    border-radius: 60px;
+    border: 1px solid #FFFFFF
+    
+}
+
+@media (max-width: 528px) {
+    .trans1-box {
+        color: white;
+        background: #4113A0;
+        max-width: 94%;
+        border-radius: 16px;
+    }
+
+    .trans-box {
+        color: white;
+        max-width: 100%;
+    }
+  }
+
+@media (max-width: 375px) {
+    .credithis1 {
+        font-size: 12px;
+    }
+
+    .creditnow1{
+
+    font-size: 12px;
+
+    }
+        
+}
+
+@media (max-width: 336px) {
+    .credithis1 {
+        font-size: 9px;
+    }
+
+    .creditnow1{
+
+    font-size: 9px;
+
+    }
+        
+}
+        
+
+

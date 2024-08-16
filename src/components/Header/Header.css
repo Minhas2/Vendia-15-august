@@ -1,0 +1,93 @@
+.btn {
+    --bs-btn-padding-x: 1.75rem;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+
+.dropdown-toggle.nav-link {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.dropdown-toggle.nav-link::after {
+    content: none;
+}
+
+
+
+.lottie {
+    width: 10000px;
+}
+
+
+
+
+
+/* new navbar */
+@media (max-width: 994px) {
+    .res-image {
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pixel perfect */
+
+.Log-btn {
+    font-family: Outfit;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+    
+
+.sign-btn {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 7px 10px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+
+.active-link {
+    color: #F62EFF !important;
+  }

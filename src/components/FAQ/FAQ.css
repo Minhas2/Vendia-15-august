@@ -1,0 +1,85 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+/* .form-control-lg {
+    background: #251946;
+    color: white;
+} */
+
+
+.FAQmini-box {
+    color: white;
+    background: #4113A0;
+   
+    border-radius: 16px;
+}
+
+.answer {
+    display: none;
+  }
+  
+  .answer.open {
+    display: block;
+  }
+  
+.box-FAQ{
+    width: 50%
+}
+
+.p-FAQS{
+font-size: 18px;
+line-height: 28.8px;
+text-align: left;
+
+}
+
+.h-2FAQ{
+font-size: 18px;
+line-height: 28.8px;
+text-align: left;
+font-weight: bold;
+}
+
+.toggle-button{
+    background: #4113A0;
+    border: none;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .box-FAQ {
+        width: 84%;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+   
+  .box-FAQ {
+    width: 93%;
+}
+
+.h-2FAQ {
+  font-family: Outfit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  
+}
+
+.p-FAQS {
+  font-family: Outfit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  
+}
+
+
+  }
+

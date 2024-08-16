@@ -1,0 +1,33 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+.whiteplaceholder::placeholder {
+    color: white;
+  }
+  
+.w-reset{
+    width: 50%;
+}
+
+.MAX-CARD-reset{
+    max-width: 75%;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .MAX-CARD-reset{
+        max-width: max-content;
+    }
+    
+  }
+
+
+  
+@media only screen and (max-width: 768px) {
+    .w-reset{
+        width: 100%;
+    }
+    
+    
+  }

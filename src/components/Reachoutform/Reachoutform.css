@@ -1,0 +1,50 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+
+
+.w-Reach1{
+    width: 12%;
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+.MAX-CARD-Reach{
+    max-width: 1296px;
+    
+}
+
+.mt-form{
+    margin-top: 3rem;
+}
+
+
+
+
+  
+@media only screen and (max-width: 768px) {
+    .w-Reach1 {
+        width: 40%;
+    }
+    
+  }
+
+@media only screen and (max-width: 425px) {
+    .w-Reach1 {
+        width: 40%;
+    }
+    
+    .mt-form{
+        margin-top: 1rem;
+    }
+    
+    
+    
+  }

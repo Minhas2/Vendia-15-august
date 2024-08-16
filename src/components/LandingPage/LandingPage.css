@@ -1,0 +1,352 @@
+.btn-group-lg>.btn,
+.btn-lg {
+  border-radius: 30px;
+}
+
+
+.res-image{
+  width: 55%;
+}
+
+.white-landing-box {
+  border: 1px solid;
+  border-radius: 24px;
+  box-shadow: 0px 4px 24px 0px #00000026;
+}
+
+.white-landing-box h1 {
+
+    margin: 10px 0;
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.white-landing-box p {
+
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+
+}
+
+.max-width-landingbox {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.why-Choose-header {
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.48px;
+  text-align: center;
+
+}
+
+/* boxes landing page for responsive */
+
+.padding-biggerbox {
+  padding-bottom: 90px;
+}
+
+.margin-Lbox2 {
+  margin-left: 30px;
+}
+
+.margin-Lbox4 {
+  margin-left: 15px;
+}
+
+
+.margin-Lbox5 {
+  margin-left: 15px;
+}
+
+
+
+.heroText h1 {
+  font-family: Outfit;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 82.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #6FEAFB;
+  max-width: 473px;
+
+}
+
+.heroText span {
+  color: #F62EFF;
+}
+
+.btnContainer {
+  margin: 50px 0 0;
+  display: flex;
+  gap: 24px;
+}
+
+.btnContainer .primaryBtn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 30px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid transparent;
+}
+
+.btnContainer .secondaryBtn {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid #fff;
+}
+
+.heroSection {
+  color: white;
+  position: relative;
+}
+
+.heroSection::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  width: 849px;
+  height: 1000px;
+  background-image: url('/public/heroBg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.padding-hero{
+  padding: 100px 0 50px
+}
+
+
+.p-vendia{
+  padding: 80px 100px;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+  .margin-Lbox2 {
+    margin-left: 0;
+  }
+
+  .margin-Lbox4 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .margin-Lbox5 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+@media (max-width: 786px) {
+  .land-mt {
+    margin-top: 20px;
+
+  }
+
+  .max-width-landingbox {
+    width: 80%;
+  }
+
+  .why-Choose-header {
+    font-family: Outfit;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28.98px;
+    text-align: center;
+
+
+  }
+
+  .heroText h1 {
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+
+
+  }
+
+
+  .heroSection::after {
+    width: 354px;
+    height: 443px;
+}
+
+  
+  .white-landing-box {
+    text-align: left;
+}
+
+ 
+}
+
+
+
+@media (max-width: 1019px) {
+
+  .padding-hero {
+    padding: 10px 0 28px;
+  }
+
+
+}
+
+
+
+
+
+@media (max-width: 425px) {
+
+  .padding-hero {
+    padding: 13px 15px 17px;
+}
+
+  .btnContainer {
+    
+    margin: 50px 0 0;
+      
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 1301px) {
+  .max-width-landingbox {
+    width: 88%;
+}
+
+  .p-vendia{
+    padding: 1rem;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .p-vendia{
+    padding: 40px 24px;
+
+}
+}
+
+
+/* latest 425 queries */
+@media (max-width: 425px) {
+  .p-vendia{
+    padding: 40px 24px;
+
+}
+
+.heroSection::after {
+  width: 245px;
+  height: 251px;
+}
+
+.p-res-425{
+  padding: 1rem;
+}
+
+.heroText h2 {
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.32px;
+  text-align: left;
+}
+
+.heroText p {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+}
+
+
+}
+
+
+
+/* 13 aug */
+
+.sub-btn{
+  font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+
+.reach-land{
+  font-family: Outfit;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

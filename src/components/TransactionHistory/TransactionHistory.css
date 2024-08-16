@@ -1,0 +1,95 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+.trans-box{
+    color: white;
+    max-width: 80%;
+}
+
+.trans1-box {
+    color: white;
+    background: #4113A0;
+    max-width: 76%;
+    border-radius: 16px;
+}
+   
+.creditnow{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+    background: #4113A0;
+    padding: 21px 24px 21px 24px;
+    border-radius: 60px;
+    border: 1px solid #FFFFFF
+}
+    
+    
+    
+    
+
+    
+
+.credithis{
+    font-family: Outfit;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+
+background: #F62EFF;
+
+    padding: 21px 24px 21px 24px;
+    border-radius: 60px;
+    border: 1px solid #FFFFFF
+    
+}
+
+@media (max-width: 528px) {
+    .trans1-box {
+        color: white;
+        background: #4113A0;
+        max-width: 94%;
+        border-radius: 16px;
+    }
+
+    .trans-box {
+        color: white;
+        max-width: 100%;
+    }
+  }
+
+@media (max-width: 375px) {
+    .credithis {
+        font-size: 12px;
+    }
+
+    .creditnow{
+
+    font-size: 12px;
+
+    }
+        
+}
+
+@media (max-width: 336px) {
+    .credithis {
+        font-size: 10px;
+    }
+
+    .creditnow{
+
+    font-size: 10px;
+
+    }
+        
+}
+        
+
+

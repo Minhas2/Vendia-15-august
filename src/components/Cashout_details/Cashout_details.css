@@ -1,0 +1,108 @@
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 30px;
+}
+
+
+/* .form-control-lg {
+    background: #251946;
+    color: white;
+} */
+
+.w-save{
+    width: 25%;
+}
+
+.MAX-CARD-cashout{
+    max-width: 60%;
+}
+
+.cash-h{
+    min-height: 94vh;
+}
+
+    .about-arrow1 {
+        position: relative;
+        right: 45%;
+        text-align: left;
+    }
+
+
+@media (max-width: 1264px) {
+    
+
+    .cash-h{
+        height: auto;
+    }
+
+}
+
+    
+  
+
+
+
+
+@media (max-width: 768px) {
+    .MAX-CARD-cashout{
+        max-width:none;
+    }
+    .w-save{
+        width: 100%;
+    }
+
+  
+
+
+    
+  }
+
+
+  @media (max-width: 576px) {
+
+    .h1-cashout-font{
+        font-size: 32px;
+    }
+    .p-cashout-font{
+        font-size: 12px;
+       }
+    }
+
+@media (max-width: 425px) {
+
+    .about-arrow1 {
+        position: relative;
+        right: 40%;
+        text-align: left;
+    }
+        }
+
+
+
+        .clickable-field {
+            background-color: #FFFFFF1A;
+            border: 1px solid #747474;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            border-radius: 4px; /* Optional: for rounded corners */
+            cursor: pointer; /* Indicates that the element is clickable */
+            display: flex; /* Align content horizontally */
+            justify-content: center; /* Center text horizontally */
+            align-items: center; /* Center text vertically */
+          }
+          
+          .clickable-field:focus {
+            outline: none; /* Remove the default focus outline */
+          }
+          
+          .clickable-field:hover {
+            background-color: #FFFFFF2A; /* Slightly different color on hover for visual feedback */
+          }
+          
+          .clickable-field.active {
+            background-color: #F62EFF; /* Different color for the active state */
+            color: white; /* Ensure text color is readable on active background */
+            border: 1px solid #F62EFF; /* Border color for active state */
+          }
+          

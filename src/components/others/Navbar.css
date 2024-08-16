@@ -1,0 +1,44 @@
+.btn {
+    --bs-btn-padding-x: 1.75rem;
+
+}
+
+a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+
+.dropdown-toggle.nav-link{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.dropdown-toggle.nav-link::after{
+   content: none;
+}
+
+
+
+.lottie{
+    width: 10000px;
+}
+
+.gap_setting{
+   justify-content: end;
+   gap: 230px;
+}
+
+
+@media (max-width: 1200px) {
+    .gap_setting{
+        justify-content: end;
+        gap: 40px;
+     }
+  }
+  
